@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgb(194, 167, 194);
+}
+
+.board {
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 500px;
+    border-radius: 10%;
+    text-align: center;
+
+}
+
+
+
+.panel {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.panel:hover {
+    box-shadow: 0 0 5px;
+}
+
+.panel.active {
+    background-color: cornsilk;
+    box-shadow: 0 0 5px;
+}
+
+.red {
+    background-color: red;
+    border-top-left-radius: 100%;
+    margin-top: 1rem;
+
+}
+
+.yellow {
+    background-color: yellow;
+    border-top-right-radius: 100%;
+}
+
+.green {
+    background-color: green;
+    border-bottom-left-radius: 100%;
+}
+
+.blue {
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
